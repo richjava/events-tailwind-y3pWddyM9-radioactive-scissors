@@ -1,0 +1,50 @@
+{
+  "app": {
+    "version": 1.0,
+    "apiVersion": 1.2,
+    "displayName": "Events Tailwind",
+    "description": "Theme for events websites with basic Tailwind styling.",
+    "imageUrl": "https://cdn.jsdelivr.net/gh/builtjs/builtjs-theme-events-tailwind/public/images/theme.png",
+    "repoName": "builtjs/builtjs-theme-events-tailwind",
+    "gitProvider": "github",
+    "repoUrl": "https://github.com/builtjs/builtjs-theme-events-tailwind",
+    "demoUrl": "https://builtjs-theme-corporate-tailwind.vercel.app",
+    "modules": [
+      {
+        "slug": "events"
+      },
+      {
+        "slug": "contact"
+      },
+      {
+        "slug": "get-informed"
+      },
+      {
+        "slug": "about"
+      },
+      {
+        "slug": "support"
+      },
+      {
+        "slug": "volunteer"
+      },
+      {
+        "slug": "sponsors"
+      }
+    ],
+    "dependencies": {
+      "frontend": {
+        "@builtjs/site": "^1.0.6"
+      }
+    },
+    "devDependencies": {
+      "frontend": {
+        "autoprefixer": "^10.4.8",
+        "postcss": "^8.4.16",
+        "tailwindcss": "^3.1.8",
+        "tailwindcss-filters": "^3.0.0",
+        "tailwindcss-spinner": "^1.2.0"
+      }
+    }
+  }
+}
